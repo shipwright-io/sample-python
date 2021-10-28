@@ -1,4 +1,4 @@
-FROM quay.io/shipwright-samples/python:3.8
+FROM ghcr.io/shipwright-io/shipwright-samples/python:3.8
 
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
